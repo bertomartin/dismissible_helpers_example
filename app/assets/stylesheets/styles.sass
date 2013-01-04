@@ -1,0 +1,50 @@
+@import compass/reset
+@import compass/css3
+
+$black: #292929
+$seafoam: #1AFFD5
+$gray: #E8E8E8
+$white: #FFFFFF
+
+html
+  color: $gray
+  font-size: 22px
+  text-align: center
+  font-family: georgia
+
+body
+  display: block
+  position: absolute
+  top: 35%
+  width: 100%
+  background-color: $black
+
+h1
+  color: $seafoam
+  margin-bottom: 1em
+  font-weight: bold
+  font-size: 1.25em
+
+div
+  margin-bottom: 1em
+  a
+    color: $seafoam
+    margin-left: .5em
+    &:hover
+      text-decoration: underline
+
+body > a
+  display: inline-block
+  margin-top: 1em
+  color: $black
+  background-color: rgba($seafoam, .75)
+  +border-radius(5px)
+  padding: 10px
+  border: 2px solid $seafoam
+  
+  font-weight: bold
+  &:hover
+    background-color: rgba($seafoam, 1)
+
+a
+  text-decoration: none
