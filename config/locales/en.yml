@@ -2,6 +2,6 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  helper_1: 'Default dismissible_helpers behavior: This will bere removed'
+  helper_1: 'Default dismissible_helpers behavior: This will be removed'
   helper_2: 'Customized: This will slide up'
   helper_3: 'Customized: This will fade out'
